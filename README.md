@@ -15,12 +15,12 @@ The project consists of the following key components:
 1. **Forms:** 
    - Contains the Django forms used for data input and updates.
 
-   ![Form](images/form.png)
+   ![Form](form.png)
 
 2. **Table:**
    - Displays the data in a tabular format, allowing users to view, edit, and delete records.
 
-   ![Table](images/table.png)
+   ![Table](table.png)
 
 ## Getting Started
 
@@ -39,7 +39,7 @@ python manage.py migrate
 Run the development server:
 python manage.py runserver
 
-Open your browser and navigate to [Localhost][http://127.0.0.1:8000/] to access the CRUD application.
+Open your browser and navigate to http://127.0.0.1:8000/ to access the CRUD application.
 
 ## Additional Information
 
