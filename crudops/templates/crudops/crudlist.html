@@ -1,6 +1,10 @@
 {% extends 'crudops/base.html' %}
 
 {% block content%}
+<p class="col-md-8 fs-4">List</p>
+<hr class="my-4">
+
+<a href="{% url 'crudform' %}" class="btn btn-success btn-sm">Add New</a>
 
 <table class="table table-bordered mt-3">
     <thead class="thead-dark">
@@ -9,9 +13,7 @@
             <th>Telephone Number</th>
             <th>Registration No</th>
             <th>Programming Language</th>
-            <th>
-                <a href="{% url 'crudform' %}" class="btn btn-success btn-sm">Add New</a>
-            </th>
+            <th></th>
         </tr>
     </thead>
 
